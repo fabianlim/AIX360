@@ -40,7 +40,9 @@ setuptools.setup(
 	    'Pygments',
             'qpsolvers',	    
             'lime==0.1.1.37',
-            'shap==0.34.0'
+            'shap==0.34.0',
+            'otoc @ git+https://github.com/IBM/otoc@main#egg=otoc'
+
 	], 
     package_data={'aix360': ['data/*', 'data/*/*', 'data/*/*/*', 'models/*', 'models/*/*', 'models/*/*/*']},
     include_package_data=True,
